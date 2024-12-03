@@ -8,28 +8,23 @@ input_path = os.path.join(script_dir, 'input.txt')
 with open(input_path, 'r') as file:
     lines = file.readlines()
 
-safe_count = 0  # Counter for safe reports
+def is_safe(values):
+    is_increasing = all(1 <= values[i+1] - values[i] <= 3 for i in range(len(values) - 1))
+    is_decreasing = all(-3 <= values[i+1] - values[i] <= -1 for i in range(len(values) - 1))
+    return is_increasing or is_decreasing
+
+def is_safe_with_dampener(values):
+    for i in range(len(values)):
+        modified_values = values[:i] + values[i+1:]  # Remove the current level
+        if is_safe(modified_values):
+            return True
+    return False
+
+safe_count = 0
 
 for line in lines:
-    values = list(map(int, line.strip().split()))  # Convert row to a list of integers
-    is_increasing = True
-    is_decreasing = True
-
-    for i in range(len(values) - 1):
-        diff = values[i+1] - values[i]
-
-        if not (1 <= abs(diff) <= 3):  # Check the difference rule
-            is_increasing = is_decreasing = False
-            break
-
-        if diff > 0:  # Increasing trend
-            is_decreasing = False
-        elif diff < 0:  # Decreasing trend
-            is_increasing = False
-
-    # A report is safe if it's either fully increasing or fully decreasing
-    if is_increasing or is_decreasing:
+    values = list(map(int, line.strip().split()))
+    if is_safe(values) or is_safe_with_dampener(values):
         safe_count += 1
 
-# Print the result
 print(f"The total number of safe reports is: {safe_count}")
