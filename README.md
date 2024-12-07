@@ -1,6 +1,6 @@
 # 🌟 Advent of Code Star Tracker 🎄✨
 
-Welcome to my **Advent of Code Star Tracker**! This repository tracks my daily progress as I solve coding challenges and collect stars during the [Advent of Code](https://adventofcode.com/) event.
+[Advent of Code](https://adventofcode.com/)
 
 ## 📅 Progress Overview
 
