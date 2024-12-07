@@ -1,4 +1,5 @@
 # https://adventofcode.com/2024/day/1
+from collections import Counter
 import os
 
 # Get the directory of the current script
@@ -9,7 +10,6 @@ input_path = os.path.join(script_dir, 'input.txt')
 with open(input_path, 'r') as file:
     lines = file.readlines()
 
-
 list1 = []
 list2 = []
 
@@ -18,13 +18,13 @@ for line in lines:
     list1.append(int(values[0]))
     list2.append(int(values[1]))
 
-# Sort lists
-list1.sort()
-list2.sort()
+# Count occurrences in list2
+list2_counts = Counter(list2)
 
-total = 0
-for a, b in zip(list1, list2):
-    total += abs(a - b)
+# Calculate the similarity score
+similarity_score = 0
+for number in list1:
+    similarity_score += number * list2_counts[number]
 
-# Print result:
-print(f"Total distance: {total}")
+# Print the result
+print(f"Similarity score: {similarity_score}")
