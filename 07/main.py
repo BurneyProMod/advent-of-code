@@ -2,9 +2,6 @@ import os
 from itertools import product
 
 def read_input_file(file_name='input.txt'):
-    """
-    Reads the content of the input file and returns it as a string.
-    """
     script_dir = os.path.dirname(os.path.abspath(__file__))
     input_path = os.path.join(script_dir, file_name)
     with open(input_path, 'r') as file:
