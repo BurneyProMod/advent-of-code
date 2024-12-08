@@ -31,7 +31,6 @@ def parse_input(file_path):
     return rules, updates
 
 def is_update_valid(update, rules):
-    """Check if an update satisfies all applicable rules."""
     for x, y in rules:
         if x in update and y in update:
             # Ensure x appears before y in the update
@@ -40,11 +39,9 @@ def is_update_valid(update, rules):
     return True
 
 def find_middle_number(update):
-    """Find the middle number of an update."""
     return update[len(update) // 2]
 
 def topological_sort(nodes, edges):
-    """Perform a topological sort to reorder pages based on the rules."""
     # Create adjacency list and in-degree counter
     graph = defaultdict(list)
     in_degree = defaultdict(int)
@@ -70,7 +67,6 @@ def topological_sort(nodes, edges):
     return sorted_nodes
 
 def reorder_update(update, rules):
-    """Reorder an update based on the rules using topological sort."""
     # Use only the nodes and edges relevant to this update
     nodes = set(update)
     edges = [(x, y) for x, y in rules if x in nodes and y in nodes]
