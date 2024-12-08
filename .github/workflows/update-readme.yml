@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - workflow/update-readme
   schedule:
     - cron: "0 0 * * *"  # Run daily at midnight UTC
 
