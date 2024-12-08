@@ -45,7 +45,7 @@ def display_window(equations, current_index, operators_tested, current_result, t
     print("=" * 70)
 
     start_index = max(0, current_index - 3)
-    end_index = min(len(equations), current_index + 2)  # +1 buffer after current
+    end_index = min(len(equations), current_index + 2)  # +1 buffer after current in display
 
     for i in range(start_index, end_index):
         target, numbers = equations[i]
