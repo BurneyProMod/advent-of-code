@@ -8,7 +8,7 @@
 
 | Day  | Challenge Title           | 🌟 Stars Earned |
 |------|----------------------------|-----------------|
-
+| 1    | [Trebuchet?!](#)          | ⬜⬜              |
 
 ### 2024
 
@@ -21,5 +21,3 @@
 | 5    | [Print Queue](#) | ⭐⭐              |
 | 6    | [Guard Gallivant](#)          | ⭐⬜              |
 | 7    | [Bridge Repair](#)| ⭐⭐             |
-
-
