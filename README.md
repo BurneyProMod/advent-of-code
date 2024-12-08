@@ -4,6 +4,12 @@
 
 ## 📅 Yearly Progress
 
+### 2023
+
+| Day  | Challenge Title           | 🌟 Stars Earned |
+|------|----------------------------|-----------------|
+
+
 ### 2024
 
 | Day  | Challenge Title           | 🌟 Stars Earned |
