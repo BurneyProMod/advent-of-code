@@ -7,6 +7,9 @@ on:
       - workflow/update-readme
   schedule:
     - cron: "0 0 * * *"  # Run daily at midnight UTC
+    
+permissions:
+  contents: write
 
 jobs:
   update-readme:
