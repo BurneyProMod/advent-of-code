@@ -4,12 +4,10 @@ import re
 def extract_table_from_readme(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
-
-    # Extract the table between "| Day" and the next empty line
-    match = re.search(r"(?<=\| Day\s+\|)[\s\S]*?(?=\n\n|$)", content, re.MULTILINE)
+    # Match the table starting with "| Day" and ending before the next blank line
+    match = re.search(r"(\| Day\s+\|.*?)(\n\n|$)", content, re.DOTALL)
     if match:
-        table_content = "| Day  |" + match.group()
-        return table_content
+        return match.group(1)  # Return the matched table
     return None
 
 # Adds year to table if there is a directory for that year in the repository
