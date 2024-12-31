@@ -21,3 +21,4 @@
 | 5    | [Print Queue](#) | ⭐⭐              |
 | 6    | [Guard Gallivant](#)          | ⭐⬜              |
 | 7    | [Bridge Repair](#)| ⭐⭐             |
+| 8    | [Resonant Collinearity](#)| ⭐⭐            |
