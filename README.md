@@ -2,8 +2,13 @@
 
 [Advent of Code](https://adventofcode.com/)
 
-## 📅 Progress Overview
+## 2015
+| Day  | Challenge Title           | 🌟 Stars Earned |
+|------|----------------------------|-----------------|
+| 1    | [Not Quite Lisp](#)          | ⭐⭐              |
+| 2    | [I Was Told There Would Be No Math](#)          | ⭐⭐              |
 
+## 2024
 | Day  | Challenge Title           | 🌟 Stars Earned |
 |------|----------------------------|-----------------|
 | 1    | [Historian Hysteria](#)          | ⭐⭐              |
