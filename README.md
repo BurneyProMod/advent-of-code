@@ -7,6 +7,7 @@
 |------|----------------------------|-----------------|
 | 1    | [Not Quite Lisp](#)          | ⭐⭐              |
 | 2    | [I Was Told There Would Be No Math](#)          | ⭐⭐              |
+| 3    | [Perfectly Spherical Houses in a Vacuum](#)          | ⭐⭐              |
 
 ## 2024
 | Day  | Challenge Title           | 🌟 Stars Earned |
