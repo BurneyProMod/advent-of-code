@@ -20,3 +20,8 @@
 | 6    | [Guard Gallivant](#)          | ⭐⬜              |
 | 7    | [Bridge Repair](#)| ⭐⭐             |
 | 8    | [Resonant Collinearity](#)| ⭐⭐            |
+
+## 2025
+| Day  | Challenge Title           | 🌟 Stars Earned |
+|------|----------------------------|-----------------|
+| 1    | [Secret Entrance](https://adventofcode.com/2025/day/1)          | ⭐⭐              |
