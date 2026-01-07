@@ -25,3 +25,4 @@
 | Day  | Challenge Title           | 🌟 Stars Earned |
 |------|----------------------------|-----------------|
 | 1    | [Secret Entrance](https://adventofcode.com/2025/day/1)          | ⭐⭐              |
+| 2    | [Gift Shop](https://adventofcode.com/2025/day/2)          | ⭐⭐              |
