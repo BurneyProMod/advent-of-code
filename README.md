@@ -24,5 +24,7 @@
 ## 2025
 | Day  | Challenge Title           | 🌟 Stars Earned |
 |------|----------------------------|-----------------|
-| 1    | [Secret Entrance](https://adventofcode.com/2025/day/1)          | ⭐⭐              |
-| 2    | [Gift Shop](https://adventofcode.com/2025/day/2)          | ⭐⭐              |
+| 1    | [Secret Entrance](https://adventofcode.com/2025/day/1)     | ⭐⭐              |
+| 2    | [Gift Shop](https://adventofcode.com/2025/day/2)           | ⭐⭐              |
+| 3    | [Lobby](https://adventofcode.com/2025/day/3)               | ⭐⭐              |
+| 4    | [Printing Department](https://adventofcode.com/2025/day/4) | ⭐⭐              |
