@@ -1,9 +1,9 @@
-# 🌟 Advent of Code Star Tracker 🎄✨
+# Star Tracker
 
 [Advent of Code](https://adventofcode.com/)
 
 ## 2015
-| Day  | Challenge Title           | 🌟 Stars Earned |
+| Day  | Challenge Title           | Stars Earned |
 |------|----------------------------|-----------------|
 | 1    | [Not Quite Lisp](https://adventofcode.com/2015/day/1)          | ⭐⭐              |
 | 2    | [I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)          | ⭐⭐              |
@@ -14,7 +14,7 @@
 | 7    | [Some Assembly Required](https://adventofcode.com/2015/day/7)          | ⭐⭐  |
 
 ## 2024
-| Day  | Challenge Title           | 🌟 Stars Earned |
+| Day  | Challenge Title           | Stars Earned |
 |------|----------------------------|-----------------|
 | 1    | [Historian Hysteria](#)          | ⭐⭐              |
 | 2    | [Red-Nosed Reports](#)                | ⭐⭐              |
@@ -26,7 +26,7 @@
 | 8    | [Resonant Collinearity](#)| ⭐⭐            |
 
 ## 2025
-| Day  | Challenge Title           | 🌟 Stars Earned |
+| Day  | Challenge Title           | Stars Earned |
 |------|----------------------------|-----------------|
 | 1    | [Secret Entrance](https://adventofcode.com/2025/day/1)     | ⭐⭐              |
 | 2    | [Gift Shop](https://adventofcode.com/2025/day/2)           | ⭐⭐              |
