@@ -12,6 +12,7 @@
 | 5    | [Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5)          | ⭐⭐  |
 | 6    | [Probably a Fire Hazard](https://adventofcode.com/2015/day/6)          | ⭐⭐  |
 | 7    | [Some Assembly Required](https://adventofcode.com/2015/day/7)          | ⭐⭐  |
+| 8    | [Matchsticks](https://adventofcode.com/2015/day/8)          | ⭐⭐  |
 
 ## 2024
 | Day  | Challenge Title           | Stars Earned |
@@ -26,7 +27,7 @@
 | 8    | [Resonant Collinearity](#)| ⭐⭐            |
 
 ## 2025
-| Day  | Challenge Title           | Stars Earned |
+| Day  | Challenge Title           | 🌟 Stars Earned |
 |------|----------------------------|-----------------|
 | 1    | [Secret Entrance](https://adventofcode.com/2025/day/1)     | ⭐⭐              |
 | 2    | [Gift Shop](https://adventofcode.com/2025/day/2)           | ⭐⭐              |
