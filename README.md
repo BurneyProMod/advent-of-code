@@ -5,9 +5,13 @@
 ## 2015
 | Day  | Challenge Title           | 🌟 Stars Earned |
 |------|----------------------------|-----------------|
-| 1    | [Not Quite Lisp](#)          | ⭐⭐              |
-| 2    | [I Was Told There Would Be No Math](#)          | ⭐⭐              |
-| 3    | [Perfectly Spherical Houses in a Vacuum](#)          | ⭐⭐              |
+| 1    | [Not Quite Lisp](https://adventofcode.com/2015/day/1)          | ⭐⭐              |
+| 2    | [I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2)          | ⭐⭐              |
+| 3    | [Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3)          | ⭐⭐              |
+| 4    | [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4)          | ⭐⭐  |
+| 5    | [Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5)          | ⭐⭐  |
+| 6    | [Probably a Fire Hazard](https://adventofcode.com/2015/day/6)          | ⭐⭐  |
+| 7    | [Some Assembly Required](https://adventofcode.com/2015/day/7)          | ⭐⭐  |
 
 ## 2024
 | Day  | Challenge Title           | 🌟 Stars Earned |
